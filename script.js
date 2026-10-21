@@ -173,3 +173,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+.brand img,
+.footer-brand img {
+  display: block !important;
+  width: 62px;
+  height: 62px;
+  max-width: none;
+  object-fit: contain;
+  opacity: 1;
+  visibility: visible;
+  flex-shrink: 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
