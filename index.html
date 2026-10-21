@@ -1,356 +1,395 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#102f20">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <title>The Himalayan Avocados | Premium Avocado Plants</title>
 
     <meta name="description"
-          content="The Himalayan Avocados - Premium avocado plants from Kullu, Himachal Pradesh.">
+          content="Discover The Himalayan Avocados in Kullu, Himachal Pradesh. Explore avocado plants and contact us for availability, pricing and delivery.">
 
-    <title>The Himalayan Avocados</title>
+    <meta name="keywords"
+          content="Himalayan avocados, avocado plants, Kullu nursery, avocado plants Himachal Pradesh">
 
-    <link rel="icon" href="assets/logo.webp">
+    <meta property="og:title" content="The Himalayan Avocados">
+    <meta property="og:description"
+          content="Grow Himalayan Avocados with Confidence. Discover our plants from Kullu, Himachal Pradesh.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hero.jpg">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/webp" href="assets/logo.webp">
+    <link rel="apple-touch-icon" href="assets/logo.webp">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
           rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+    <!-- NAVIGATION -->
 
-<header class="navbar">
+    <header class="navbar">
 
-    <a href="#" class="brand">
-        <img src="assets/logo.webp" alt="The Himalayan Avocados logo">
-    </a>
+        <a href="#home" class="brand" aria-label="The Himalayan Avocados home">
+            <img src="assets/logo.webp"
+                 alt="The Himalayan Avocados logo"
+                 width="62"
+                 height="62">
+        </a>
 
-    <nav id="navMenu">
-        <a href="#home">Home</a>
-        <a href="#plants">Plants</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav id="navMenu" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#plants">Plants</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <a class="whatsapp-btn"
-       href="https://wa.me/91XXXXXXXXXX"
-       target="_blank">
-        WhatsApp
-    </a>
+        <a class="whatsapp-btn"
+           href="https://wa.me/91XXXXXXXXXX"
+           target="_blank"
+           rel="noopener noreferrer">
+            WhatsApp ↗
+        </a>
 
-    <button class="menu-btn" id="menuBtn">
-        ☰
-    </button>
+        <button class="menu-btn"
+                id="menuBtn"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-controls="navMenu"
+                aria-expanded="false">
+            ☰
+        </button>
 
-</header>
+    </header>
 
 
-<!-- HERO -->
+    <main>
 
-<section class="hero" id="home">
+        <!-- HERO -->
 
-    <div class="hero-content">
+        <section class="hero" id="home">
 
-        <span class="eyebrow">
-            THE HIMALAYAN AVOCADOS
-        </span>
+            <div class="hero-content">
 
-        <h1>
-            Grow Himalayan
-            <span>Avocados</span>
-            with Confidence
-        </h1>
+                <span class="eyebrow">
+                    THE HIMALAYAN AVOCADOS
+                </span>
 
-        <p>
-            Premium grafted avocado plants
-            suitable for cold regions.
-        </p>
+                <h1>
+                    Grow Himalayan
+                    <span>Avocados</span>
+                    with Confidence
+                </h1>
 
-        <div class="hero-buttons">
+                <p>
+                    Discover quality avocado plants from the
+                    Himalayas. Let's grow something extraordinary.
+                </p>
 
-            <a href="#plants" class="btn primary">
-                Explore Plants →
+                <div class="hero-buttons">
+
+                    <a href="#plants" class="btn primary">
+                        Explore Plants →
+                    </a>
+
+                    <a href="https://wa.me/91XXXXXXXXXX"
+                       class="btn secondary"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Contact Us ↗
+                    </a>
+
+                </div>
+
+                <div class="location">
+                    <span aria-hidden="true">📍</span>
+                    Kullu, Himachal Pradesh
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- KEY FEATURES -->
+
+        <section class="features" aria-label="Our advantages">
+
+            <div>
+                <span aria-hidden="true">🌱</span>
+                <strong>Healthy Plants</strong>
+                <small>Nursery-grown plants</small>
+            </div>
+
+            <div>
+                <span aria-hidden="true">🏔️</span>
+                <strong>Himalayan Roots</strong>
+                <small>Based in Kullu</small>
+            </div>
+
+            <div>
+                <span aria-hidden="true">📦</span>
+                <strong>Delivery Enquiries</strong>
+                <small>Ask about your location</small>
+            </div>
+
+            <div>
+                <span aria-hidden="true">👨‍🌾</span>
+                <strong>Growing Guidance</strong>
+                <small>Support for growers</small>
+            </div>
+
+        </section>
+
+
+        <!-- PLANT VARIETIES -->
+
+        <section class="section" id="plants">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">OUR COLLECTION</span>
+
+                    <h2>Find Your Avocado Plant</h2>
+
+                    <p>
+                        Explore popular avocado varieties.
+                        Contact us to confirm current stock,
+                        pricing and suitability for your region.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="plant-grid">
+
+                <article class="plant-card">
+
+                    <img src="assets/hass.jpg"
+                         alt="Hass avocado variety"
+                         loading="lazy"
+                         decoding="async">
+
+                    <div class="plant-info">
+
+                        <h3>Hass</h3>
+
+                        <p>
+                            Popular for its creamy texture
+                            and rich, distinctive flavour.
+                        </p>
+
+                        <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%27m%20interested%20in%20Hass%20avocado%20plants."
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Enquire Now →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="plant-card">
+
+                    <img src="assets/fuerte.jpg"
+                         alt="Fuerte avocado variety"
+                         loading="lazy"
+                         decoding="async">
+
+                    <div class="plant-info">
+
+                        <h3>Fuerte</h3>
+
+                        <p>
+                            A well-known avocado variety
+                            with smooth, green-skinned fruit.
+                        </p>
+
+                        <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%27m%20interested%20in%20Fuerte%20avocado%20plants."
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Enquire Now →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="plant-card">
+
+                    <img src="assets/reed.jpg"
+                         alt="Reed avocado variety"
+                         loading="lazy"
+                         decoding="async">
+
+                    <div class="plant-info">
+
+                        <h3>Reed</h3>
+
+                        <p>
+                            Recognised for its round fruit
+                            and rich, buttery flesh.
+                        </p>
+
+                        <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%27m%20interested%20in%20Reed%20avocado%20plants."
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Enquire Now →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY -->
+
+        <section class="section gallery-section" id="gallery">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">A GLIMPSE OF OUR WORK</span>
+
+                    <h2>From Nursery to Orchard</h2>
+
+                    <p>
+                        A closer look at our plants and growing journey.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <img src="assets/gallery-1.jpg"
+                     alt="Avocado plants at the nursery"
+                     loading="lazy"
+                     decoding="async">
+
+                <img src="assets/gallery-2.jpg"
+                     alt="Avocado growing area"
+                     loading="lazy"
+                     decoding="async">
+
+                <img src="assets/gallery-3.jpg"
+                     alt="Avocado plants and orchard"
+                     loading="lazy"
+                     decoding="async">
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact-banner" id="contact">
+
+            <div>
+
+                <span class="eyebrow">LET'S GROW TOGETHER</span>
+
+                <h2>Ready to grow?</h2>
+
+                <p>
+                    Contact us for plant availability, pricing,
+                    delivery options and growing enquiries.
+                </p>
+
+            </div>
+
+            <a href="https://wa.me/91XXXXXXXXXX"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn light">
+                Enquire on WhatsApp →
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <img src="assets/logo.webp"
+                 alt="The Himalayan Avocados logo"
+                 width="66"
+                 height="66"
+                 loading="lazy">
+
+            <div>
+                <h3>The Himalayan Avocados</h3>
+                <p>Rooted in the Himalayas. Growing with nature.</p>
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#plants">Plants</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        <div class="social">
+
+            <a href="https://www.instagram.com/him_avocados/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Instagram ↗
             </a>
 
             <a href="https://wa.me/91XXXXXXXXXX"
-               class="btn secondary"
-               target="_blank">
-                WhatsApp
+               target="_blank"
+               rel="noopener noreferrer">
+                WhatsApp ↗
             </a>
 
         </div>
 
-        <div class="location">
-            📍 Kullu, Himachal Pradesh
-        </div>
 
-    </div>
+        <div class="copyright">
 
-</section>
-
-
-<!-- FEATURES -->
-
-<section class="features">
-
-    <div>
-        <span>🌱</span>
-        <strong>Healthy Plants</strong>
-        <small>Grafted & nursery grown</small>
-    </div>
-
-    <div>
-        <span>🏔️</span>
-        <strong>Cold Climate</strong>
-        <small>Suitable for Himalayan regions</small>
-    </div>
-
-    <div>
-        <span>🚚</span>
-        <strong>Safe Delivery</strong>
-        <small>Across India</small>
-    </div>
-
-    <div>
-        <span>👨‍🌾</span>
-        <strong>Guidance</strong>
-        <small>Planting support</small>
-    </div>
-
-</section>
-
-
-<!-- PLANTS -->
-
-<section class="section" id="plants">
-
-    <div class="section-heading">
-
-        <div>
-            <span class="eyebrow">OUR PLANTS</span>
-
-            <h2>
-                Avocado Varieties
-            </h2>
-
-            <p>
-                Carefully selected varieties for
-                Himalayan and North Indian regions.
-            </p>
-        </div>
-
-    </div>
-
-
-    <div class="plant-grid">
-
-        <article class="plant-card">
-
-            <img src="assets/hass.jpg"
-                 alt="Hass avocado">
-
-            <div class="plant-info">
-
-                <h3>Hass</h3>
-
-                <p>
-                    Popular variety with excellent
-                    fruit quality.
-                </p>
-
-                <a href="#contact">
-                    View Details →
-                </a>
-
-            </div>
-
-        </article>
-
-
-        <article class="plant-card">
-
-            <img src="assets/fuerte.jpg"
-                 alt="Fuerte avocado">
-
-            <div class="plant-info">
-
-                <h3>Fuerte</h3>
-
-                <p>
-                    A reliable variety suitable
-                    for cooler regions.
-                </p>
-
-                <a href="#contact">
-                    View Details →
-                </a>
-
-            </div>
-
-        </article>
-
-
-        <article class="plant-card">
-
-            <img src="assets/reed.jpg"
-                 alt="Reed avocado">
-
-            <div class="plant-info">
-
-                <h3>Reed</h3>
-
-                <p>
-                    Known for its large fruit
-                    and excellent taste.
-                </p>
-
-                <a href="#contact">
-                    View Details →
-                </a>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- GALLERY -->
-
-<section class="section gallery-section" id="gallery">
-
-    <div class="section-heading">
-
-        <span class="eyebrow">
-            OUR GALLERY
-        </span>
-
-        <h2>
-            From Nursery to Orchard
-        </h2>
-
-    </div>
-
-
-    <div class="gallery">
-
-        <img src="assets/gallery-1.jpg"
-             alt="Avocado nursery">
-
-        <img src="assets/gallery-2.jpg"
-             alt="Avocado plantation">
-
-        <img src="assets/gallery-3.jpg"
-             alt="Himalayan avocado orchard">
-
-    </div>
-
-</section>
-
-
-<!-- CONTACT CTA -->
-
-<section class="contact-banner" id="contact">
-
-    <div>
-
-        <span class="eyebrow">
-            GET YOUR AVOCADO PLANTS
-        </span>
-
-        <h2>
-            Ready to grow?
-        </h2>
-
-        <p>
-            Contact us for plant availability,
-            pricing and delivery.
-        </p>
-
-    </div>
-
-    <a href="https://wa.me/91XXXXXXXXXX"
-       target="_blank"
-       class="btn light">
-
-        Order on WhatsApp →
-
-    </a>
-
-</section>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-    <div class="footer-brand">
-
-        <img src="assets/logo.png"
-             alt="The Himalayan Avocados">
-
-        <div>
-
-            <h3>
+            <span>
+                © <span id="currentYear">2026</span>
                 The Himalayan Avocados
-            </h3>
+            </span>
 
-            <p>
-                Strong • Healthy • Local
-            </p>
+            <span>Made with care in Kullu, Himachal Pradesh 🌱</span>
 
         </div>
 
-    </div>
+    </footer>
 
 
-    <div class="footer-links">
+    <!-- JAVASCRIPT -->
 
-        <a href="#home">Home</a>
-        <a href="#plants">Plants</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-
-    </div>
-
-
-    <div class="social">
-
-        <a href="https://www.instagram.com/him_avocados/"
-           target="_blank">
-            Instagram
-        </a>
-
-        <a href="https://wa.me/91XXXXXXXXXX"
-           target="_blank">
-            WhatsApp
-        </a>
-
-    </div>
-
-
-    <div class="copyright">
-
-        © 2026 The Himalayan Avocados
-
-        <span>
-            Grown in Kullu 🌱
-        </span>
-
-    </div>
-
-</footer>
-
-
-<script src="script.js"></script>
+    <script src="script.js" defer></script>
 
 </body>
-  </html>
+</html>
